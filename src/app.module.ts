@@ -28,6 +28,7 @@ AdminJS.registerAdapter({
         return {
           adminJsOptions: {
             rootPath: '/admin',
+            // Rename "organizations" to your table name or set "resources" to []
             resources: [db.table('organizations')],
           },
           auth: {
